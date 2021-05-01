@@ -1,3 +1,5 @@
+![alt text](Resources/hawaii_outline.png)
+
 # surfs_up
 
 ## Table of Contents
@@ -6,6 +8,8 @@
   * 1.2 Resources
   
 - [2.0 Results](#Results)
+  * 2.1 Process
+  * 2.2 June vs December
 
 - [3.0 Summary](#Summary)
 
@@ -22,17 +26,21 @@ A summary for the weather on Oahu needs to be conducted to get an understanding 
 <a name="Results"></a>
 ## Results
 
-### Process
+### 2.1 Process
 
 Data was extracted from the hawaii.sqlite database utilizing sqlalchemy. An engine was created and references to the tables within the database were created. Next the data is querried to extract the temperatures for June and December.  The data is convereted into a list and then loaded into a pandas dataframe to create a summary of the temperatures for the given months.  
 
 
-### June vs December
+### 2.2 June vs December
 
 * The temperature in June and December are essentially the same on Oahu with a low ranging between 56-64 and high of 83-85 degrees. 
 * The average temperature is in the low 70s. 
 * The number of points collected is over 1500, which provides for a good analysis for temperatures exhibited in the months of June and December. 
 
+June Summary:                                      December Summary: 
+![alt text](Resources/june_temp_summary.png)       ![alt text](Resources/dec_temp_summary.png)
+ 
+ 
 <a name="Summary"></a>
 ## Summary
 
