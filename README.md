@@ -31,7 +31,7 @@ Data was extracted from the hawaii.sqlite database utilizing sqlalchemy. An engi
 
 ### 2.2 June vs December
 
-* The temperature in June and December are essentially the same on Oahu with a low ranging between 56-64 and high of 83-85 degrees. 
+* The temperatures in June are higher than December, with temperatures ranging from 64 - 85 compared to 56 - 83 degrees.  
 * The average temperature is in the low 70s. 
 * The number of points collected is over 1500, which provides for a good analysis for temperatures exhibited in the months of June and December. 
 
