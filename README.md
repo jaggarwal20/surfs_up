@@ -1,5 +1,3 @@
-![alt text](Resources/hawaii_outline.png)
-
 # surfs_up
 
 ## Table of Contents
@@ -37,8 +35,13 @@ Data was extracted from the hawaii.sqlite database utilizing sqlalchemy. An engi
 * The average temperature is in the low 70s. 
 * The number of points collected is over 1500, which provides for a good analysis for temperatures exhibited in the months of June and December. 
 
-June Summary:                                      December Summary: 
-![alt text](Resources/june_temp_summary.png)       ![alt text](Resources/dec_temp_summary.png)
+June Summary:                                   
+
+![alt text](Resources/june_temp_summary.png)       
+
+December Summary:
+
+![alt text](Resources/dec_temp_summary.png)
  
  
 <a name="Summary"></a>
