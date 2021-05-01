@@ -56,10 +56,10 @@ Based on the temperature it would be good to open an ice cream and surf shop, al
 Additional queries can also be run to get more information for the months for example: 
 * Precipitation for June and December 
 
-  ` precipitation = engine.execute('SELECT prcp FROM Measurement WHERE date like "%-mm-%"')
+  ` precipitation = engine.execute('SELECT prcp FROM Measurement WHERE date like "%-mm-%"')`
   
 * Elevation for June and December
 
-  `elevation = engine.execute('SELECT Station.elevation FROM Station INNER JOIN Measurement ON Station.station = Measurement.station WHERE Measurement.date like "%-mm-%"')
+  `elevation = engine.execute('SELECT Station.elevation FROM Station INNER JOIN Measurement ON Station.station = Measurement.station WHERE Measurement.date like "%-mm-%"')`
 
  mm = 06 or 12
